@@ -12,8 +12,11 @@ class Header {
 
 const myheader = new Header();
 
+// window.color = 'blue';
+
 //The window object calls the function:
-// window.addEventListener("load", myheader.changeColor);
+window.addEventListener("load", myheader.changeColor);
+
 
 //A button object calls the function:
 document.getElementById("btn").addEventListener("click", myheader.changeColor);
