@@ -14,6 +14,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Read <Link href="/posts/first-post">this page!</Link>
         </h1>
+        <p>[None of your business]</p>
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
@@ -37,7 +38,6 @@ export default function Home() {
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
-
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
